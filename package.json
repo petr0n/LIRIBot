@@ -1,0 +1,19 @@
+{
+  "name": "liribot",
+  "version": "1.0.0",
+  "description": "LIRIBot - The smart movie and music finder",
+  "main": "index.js",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "moment": "^2.24.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Abeln",
+  "license": "ISC"
+}
