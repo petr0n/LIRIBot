@@ -1,11 +1,13 @@
 require('dotenv').config();
-let axios = require('axios');
-let Spotify = require('node-spotify-api');
-let moment = require('moment');
-let fs = require('fs');
+const axios = require('axios');
+const Spotify = require('node-spotify-api');
+const moment = require('moment');
+const fs = require('fs');
+const chalk = require('chalk');
+const log = console.log;
 
-// env data
-let keys = require('./keys.js');
+// keys
+const keys = require('./keys.js');
 
 
 let action = '';
@@ -80,15 +82,14 @@ function concertThis(name) {
         // console.log(bandsInTownApiUrl);
         axios.get(bandsInTownApiUrl)
         .then(function(res){
-            // console.log(res.data[0]);
+            console.log(res.data);
             let concerts = res.data;
             if (concerts.length > 0) {
-                console.log('\nNext concert dates for ' + bQuery);
+                console.log(chalk.magenta.bgYellowBright.bold('\n Next three concert dates for ' + bQuery + ' '));
                 details = '=====================\n';
                 for (var i = 0; i < 3;i++) {
                     concertDate = moment(concerts[i].datetime).format('MM/DD/YYYY');
                     details += `
-    Next Concert
     Venue: ${concerts[i].venue.name}
     Location: ${concerts[i].venue.city}
     Date: ${concertDate}
@@ -96,6 +97,7 @@ function concertThis(name) {
 =====================
                     `;
                 }
+                console.log(chalk.yellow(details));
             } else {
                 details = `
 =====================
@@ -104,14 +106,9 @@ function concertThis(name) {
 
 =====================\n
 `;
+                console.log(chalk.red(details));
 
             }
-            console.log(details);
-            /*
-            Name of the venue
-            Venue location
-            Date of the Event (use moment to format this as "MM/DD/YYYY")
-            */
         });
     }
 }
@@ -129,28 +126,39 @@ function movieThis(name) {
     let movieTitle = name.length > 0 ? name : 'Mr. Nobody';
     if (movieTitle.length > 0){
         let omdbApiUrl = 'https://www.omdbapi.com/?apikey=' + keys.key.omdb_key + '&t=' + encodeURI(movieTitle);
-        console.log('=====================\r\n');
-        console.log(omdbApiUrl);
+        //console.log(omdbApiUrl);
 
         axios.get(omdbApiUrl)
             .then(function(res){
-                console.log(res.data);
+                //console.log(res.data);
                 let movie = res.data;
                 let details = '';
-                if (movie.length > 0) {
+                if (movie.Title.length > 0) {
                     details = `
 =====================
 
+    ${chalk.bold.green(movie.Title)}
+    Release year: ${movie.Year}
+    IMDB Rating: ${movie.Ratings[0].Value}
+    Rotten Tomatoes Rating: ${movie.Ratings[1].Value}
+    Origin: ${movie.Country}
+    Language: ${movie.Language}
+    Actors: ${movie.Actors}
+    Plot: ${movie.Plot}
+
 =====================
                 `;
+                    console.log(chalk.yellow(details));
                 } else {
                     details = `
 =====================
+
     Sorry, nothing found for ${movieTitle}
-=====================
+
+    =====================
                     `;
+                    console.log(chalk.red(details));
                 }      
-                console.log(details);
     /*
     * Title of the movie.
     * Year the movie came out.
