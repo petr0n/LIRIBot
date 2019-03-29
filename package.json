@@ -4,6 +4,7 @@
   "description": "LIRIBot - The smart movie and music finder",
   "main": "index.js",
   "dependencies": {
+    "chalk": "^2.4.2",
     "node-spotify-api": "^1.0.7"
   },
   "devDependencies": {
