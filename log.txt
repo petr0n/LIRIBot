@@ -151,3 +151,32 @@ RESULT: success
 RESULT: success
 2019-03-31 7:29:22PM - ACTION: spotify-this-song QUERY: Shout at the devil
 RESULT: success
+2019-04-01 6:18:50PM - ACTION: spotify-this-song QUERY: Virginia
+2019-04-01 6:18:50PM - ACTION: do-what-it-says QUERY: Virginia
+RESULT: success
+2019-04-01 6:20:05PM - ACTION: movie-this QUERY: Strikes Back
+2019-04-01 6:20:05PM - ACTION: do-what-it-says QUERY: Strikes,Back
+2019-04-01 6:20:25PM - ACTION: spotify-this-song QUERY: Sweet Virginia
+2019-04-01 6:20:25PM - ACTION: do-what-it-says QUERY: Sweet,Virginia
+RESULT: success
+2019-04-01 6:22:05PM - ACTION: concert-this QUERY: Gorillaz
+2019-04-01 6:22:05PM - ACTION: do-what-it-says QUERY: Gorillaz
+RESULT: fail
+2019-04-01 6:22:22PM - ACTION: spotify-this-song QUERY: Live wire
+RESULT: success
+2019-04-01 6:22:58PM - ACTION: spotify-this-song QUERY: Girls, girls, girls
+RESULT: success
+2019-04-01 6:24:21PM - ACTION: spotify-this-song QUERY: A Day in the Life
+RESULT: success
+2019-04-01 6:24:44PM - ACTION: spotify-this-song QUERY: Glass Onion
+RESULT: success
+2019-04-01 6:26:05PM - ACTION: undefined QUERY: 
+2019-04-01 6:27:33PM - ACTION: undefined QUERY: 
+2019-04-01 6:27:58PM - ACTION: undefined QUERY: 
+2019-04-01 6:28:04PM - ACTION: undefined QUERY: 
+2019-04-01 6:28:10PM - ACTION: undefined QUERY: 
+2019-04-01 6:28:49PM - ACTION: undefined QUERY: 
+2019-04-01 6:29:10PM - ACTION: undefined QUERY: 
+2019-04-01 6:31:22PM - ACTION: undefined QUERY: 
+2019-04-01 6:32:56PM - ACTION: concert-this QUERY: metric
+RESULT: success

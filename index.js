@@ -31,9 +31,9 @@ function start(action, name){
 		case 'do-what-it-says':
 			let line = getRandomLine();
 			line = line.split(' ');
-			name = line.slice(2, line.length);
+			name = line.slice(1, line.length);
 			start(line[0], name.join(' '));
-			// console.log(name.join(' '));
+			console.log(name.join(' '));
 			break;
 		default:
 			showHelp();
@@ -64,7 +64,7 @@ function spotifyThisSong(name) {
 		   //console.log(data.tracks.items);
 		   let items = data.tracks.items;
 		   if (items.length > 0) {
-				details = `Song: ${sQuery}
+				details = `Song: ${chalk.bold.cyanBright(sQuery)}
 					Artist: ${data.tracks.items[0].album.artists[0].name} 
 					Album: ${data.tracks.items[0].album.name}
 					Preview URL: ${data.tracks.items[0].preview_url}`;
@@ -98,7 +98,7 @@ function concertThis(name) {
 			if (concerts.length > 0) {
 				
 				totalConcerts = concerts.length < 3 ? concerts.length : 3;
-				// console.log(chalk.magenta.bgYellowBright.bold('\n Next three concert dates for ' + bQuery + ' '));
+				console.log(chalk.bold.cyanBright('\nNext three concert dates for ' + bQuery + ' '));
 				for (var i = 0; i < totalConcerts;i++) {
 					concertDate = moment(concerts[i].datetime).format('MM/DD/YYYY');
 					details += `Venue: ${concerts[i].venue.name}
@@ -148,7 +148,7 @@ function movieThis(name) {
 						rottenToms = '\nRotten Tomatoes Rating: ' + movie.Ratings[1].Value;
 					}
 					try {
-						let details = `${chalk.bold.green(movie.Title)}
+						let details = `${chalk.bold.cyanBright(movie.Title)}
 								Release year: ${movie.Year}
 								IMDB Rating: ${movie.Ratings[0].Value}${rottenToms}
 								Origin: ${movie.Country}
@@ -175,13 +175,16 @@ function getRandomLine(){
 
 function showHelp() {
 	let help = `
-	Welcome to LIRIBot\n
-	I'm a simple bot but powerful. You can search for movies, songs or bands.\n
-	Use the following parameters to get what you are looking for:\n\n
+	${chalk.bold.cyanBright('Welcome to LIRIBot')}
+	I'm a simple bot but powerful. You can search for movies, songs or bands.
+	Use the following parameters to get what you are looking for:\n
 
-	node index spotify-this-song <Song title goes here>\n
-	node index movie-this <Movie title goes here>\n
-	node index concert-this <Band name goes here>\n\n
+	node index ${chalk.black.bgCyanBright('spotify-this-song')} <Song title goes here>
+	node index ${chalk.black.bgCyanBright('movie-this')} <Movie title goes here>
+	node index ${chalk.black.bgCyanBright('concert-this')} <Band name goes here>
+
+	Or get something random
+	node index ${chalk.black.bgCyanBright('do-what-it-says')} \n
 
 	Have fun!
 	`;
