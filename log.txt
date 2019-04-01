@@ -1,0 +1,153 @@
+20190331 1:31 pm action: spotify-this-song search query: idioteque
+2019-03-31 1:32 pm - ACTION: spotify-this-song QUERY: Spiders from Mars
+2019-03-31 1:34:26PM - ACTION: spotify-this-song QUERY: Spiders from Mars
+2019-03-31 1:35:27PM - ACTION: movie-this QUERY: Poltergiest
+2019-03-31 1:35:33PM - ACTION: movie-this QUERY: Poltergeist
+2019-03-31 1:43:44PM - ACTION: movie-this QUERY: Gladiator RESULT: success
+2019-03-31 1:44:20PM - ACTION: movie-this QUERY: Shawn of the Dead RESULT: fail
+2019-03-31 1:44:35PM - ACTION: movie-this QUERY: Shaun of the Dead RESULT: success
+2019-03-31 1:51:27PM - ACTION: movie-this QUERY: Casino RESULT: success
+2019-03-31 1:56:33PM - ACTION: concert-this QUERY: Gorilla RESULT: success
+2019-03-31 1:56:37PM - ACTION: concert-this QUERY: Gorillaz RESULT: fail
+2019-03-31 1:57:07PM - ACTION: concert-this QUERY: Arcade Fire RESULT: fail
+2019-03-31 1:57:23PM - ACTION: concert-this QUERY: Minus the Bear RESULT: fail
+2019-03-31 2:19:07PM - ACTION: concert-this QUERY: Taylor Swift RESULT: fail
+2019-03-31 2:21:43PM - ACTION: concert-this QUERY: Artic Monkeys RESULT: success
+2019-03-31 2:23:07PM - ACTION: concert-this QUERY: Artic Monkeys RESULT: success
+2019-03-31 2:24:46PM - ACTION: concert-this QUERY: Artic Monkeys RESULT: success
+2019-03-31 2:24:56PM - ACTION: concert-this QUERY: Artic Monkeys RESULT: success
+2019-03-31 2:25:15PM - ACTION: concert-this QUERY: Gorilla RESULT: success
+2019-03-31 2:29:27PM - ACTION: concert-this QUERY: Gorilla RESULT: success
+2019-03-31 2:29:33PM - ACTION: concert-this QUERY: Gorilla RESULT: success
+2019-03-31 2:30:34PM - ACTION: concert-this QUERY: Gorilla RESULT: success
+2019-03-31 2:32:05PM - ACTION: concert-this QUERY: Gorilla RESULT: success
+2019-03-31 2:32:42PM - ACTION: concert-this QUERY: Gorilla RESULT: success
+2019-03-31 2:34:39PM - ACTION: concert-this QUERY: Gorilla RESULT: success
+2019-03-31 2:34:51PM - ACTION: concert-this QUERY: Gorilla RESULT: success
+2019-03-31 2:35:17PM - ACTION: concert-this QUERY: Gorilla RESULT: success
+2019-03-31 2:57:50PM - ACTION: concert-this QUERY: Gorilla RESULT: success
+2019-03-31 3:03:15PM - ACTION: concert-this QUERY: Gorilla RESULT: success
+2019-03-31 3:04:54PM - ACTION: concert-this QUERY: Gorilla RESULT: success
+2019-03-31 3:22:10PM - ACTION: movie-this QUERY: Jaws RESULT: success
+2019-03-31 3:24:41PM - ACTION: movie-this QUERY: Jaws RESULT: success
+2019-03-31 3:25:41PM - ACTION: movie-this QUERY: Jaws RESULT: success
+2019-03-31 3:29:23PM - ACTION: movie-this QUERY: Jaws RESULT: success
+2019-03-31 3:29:34PM - ACTION: movie-this QUERY: Jaws RESULT: success
+2019-03-31 3:29:56PM - ACTION: movie-this QUERY: Jaws RESULT: success
+2019-03-31 3:30:10PM - ACTION: movie-this QUERY: Jaws RESULT: success
+2019-03-31 3:31:23PM - ACTION: movie-this QUERY: Jaws RESULT: success
+2019-03-31 3:31:59PM - ACTION: movie-this QUERY: Jaws RESULT: success
+2019-03-31 3:32:31PM - ACTION: movie-this QUERY: Jaws RESULT: success
+2019-03-31 3:32:37PM - ACTION: movie-this QUERY: Jaws RESULT: success
+2019-03-31 3:32:44PM - ACTION: movie-this QUERY: Jaws RESULT: success
+2019-03-31 3:33:10PM - ACTION: movie-this QUERY: The Matrix RESULT: success
+2019-03-31 3:34:47PM - ACTION: movie-this QUERY: The Matrix RESULT: success
+2019-03-31 3:35:58PM - ACTION: movie-this QUERY: The Matrix RESULT: success
+2019-03-31 3:37:11PM - ACTION: movie-this QUERY: The Matrix RESULT: success
+2019-03-31 3:37:23PM - ACTION: movie-this QUERY: The Matrix RESULT: success
+2019-03-31 3:37:34PM - ACTION: movie-this QUERY: The Matrix RESULT: success
+2019-03-31 3:38:01PM - ACTION: movie-this QUERY: The Matrix RESULT: success
+2019-03-31 3:47:59PM - ACTION: movie-this QUERY: The Matrix RESULT: success
+2019-03-31 3:48:31PM - ACTION: movie-this QUERY: The Matrix RESULT: success
+2019-03-31 3:49:49PM - ACTION: movie-this QUERY: The Matrisdfdf RESULT: fail
+2019-03-31 3:49:58PM - ACTION: movie-this QUERY: Up RESULT: success
+2019-03-31 3:50:32PM - ACTION: movie-this QUERY: Star Wars RESULT: success
+2019-03-31 3:51:21PM - ACTION: spotify-this-song QUERY: Up All Night RESULT: success
+2019-03-31 3:52:21PM - ACTION: spotify-this-song QUERY: Up All Night RESULT: success
+2019-03-31 3:53:41PM - ACTION: spotify-this-song QUERY: No Distraction
+ RESULT: success
+2019-03-31 3:56:06PM - ACTION: spotify-this-song QUERY: Sweet Virginia
+ RESULT: success
+2019-03-31 4:53:33PM - ACTION: spotify-this-song QUERY: Sweet Virginia
+2019-03-31 4:54:59PM - ACTION: spotify-this-song QUERY: Sweet Virginia
+2019-03-31 4:56:28PM - ACTION: spotify-this-song QUERY: Sweet Virginia
+RESULT: success
+2019-03-31 5:00:54PM - ACTION: spotify-this-song QUERY: Sweet Virginia
+RESULT: success
+2019-03-31 5:07:54PM - ACTION: spotify-this-song QUERY: Sweet Virginia
+RESULT: success
+2019-03-31 5:08:28PM - ACTION: spotify-this-song QUERY: Sweet Virginia
+RESULT: success
+2019-03-31 5:08:53PM - ACTION: spotify-this-song QUERY: Sweet Virginia
+RESULT: success
+2019-03-31 6:35:10PM - ACTION: spotify-this-song QUERY: Sweet Virginia
+RESULT: success
+2019-03-31 6:36:32PM - ACTION: spotify-this-song QUERY: Yellow
+2019-03-31 6:36:32PM - ACTION: do-what-it-says QUERY: 
+RESULT: success
+2019-03-31 6:36:38PM - ACTION: concert-this QUERY: Gorillaz
+2019-03-31 6:36:38PM - ACTION: do-what-it-says QUERY: 
+RESULT: fail
+2019-03-31 6:37:57PM - ACTION: movie-this QUERY: Empire
+2019-03-31 6:37:57PM - ACTION: do-what-it-says QUERY: 
+RESULT: success
+2019-03-31 6:38:23PM - ACTION: movie-this QUERY: Jaws
+2019-03-31 6:38:23PM - ACTION: do-what-it-says QUERY: 
+RESULT: success
+2019-03-31 6:38:27PM - ACTION: concert-this QUERY: Gorillaz
+2019-03-31 6:38:27PM - ACTION: do-what-it-says QUERY: 
+RESULT: fail
+2019-03-31 6:38:33PM - ACTION: spotify-this-song QUERY: Canned
+2019-03-31 6:38:33PM - ACTION: do-what-it-says QUERY: 
+RESULT: success
+2019-03-31 6:47:45PM - ACTION: movie-this QUERY: The,Matrix
+2019-03-31 6:47:45PM - ACTION: do-what-it-says QUERY: do-what-it-says
+RESULT: success
+2019-03-31 6:48:08PM - ACTION: concert-this QUERY: Tool
+2019-03-31 6:48:08PM - ACTION: do-what-it-says QUERY: do-what-it-says
+RESULT: success
+2019-03-31 6:48:18PM - ACTION: movie-this QUERY: Jaws
+2019-03-31 6:48:18PM - ACTION: do-what-it-says QUERY: do-what-it-says
+RESULT: success
+2019-03-31 6:48:22PM - ACTION: movie-this QUERY: Jaws
+2019-03-31 6:48:22PM - ACTION: do-what-it-says QUERY: do-what-it-says
+RESULT: success
+2019-03-31 6:48:25PM - ACTION: concert-this QUERY: Tool
+2019-03-31 6:48:25PM - ACTION: do-what-it-says QUERY: do-what-it-says
+RESULT: success
+2019-03-31 6:48:27PM - ACTION: concert-this QUERY: Minus,the,Bear
+2019-03-31 6:48:27PM - ACTION: do-what-it-says QUERY: do-what-it-says
+2019-03-31 6:49:55PM - ACTION: concert-this QUERY: Gorillaz
+2019-03-31 6:49:55PM - ACTION: do-what-it-says QUERY: Gorillaz
+RESULT: fail
+2019-03-31 6:49:58PM - ACTION: spotify-this-song QUERY: SweetVirginia
+2019-03-31 6:49:58PM - ACTION: do-what-it-says QUERY: Sweet,Virginia
+RESULT: fail
+2019-03-31 6:50:03PM - ACTION: concert-this QUERY: Gorillaz
+2019-03-31 6:50:04PM - ACTION: do-what-it-says QUERY: Gorillaz
+RESULT: fail
+2019-03-31 6:50:05PM - ACTION: concert-this QUERY: MinustheBear
+2019-03-31 6:50:05PM - ACTION: do-what-it-says QUERY: Minus,the,Bear
+RESULT: fail
+2019-03-31 6:50:51PM - ACTION: movie-this QUERY: movie-thisCatintheHat
+RESULT: fail
+2019-03-31 6:51:10PM - ACTION: movie-this QUERY: movie-this Cat in the Hat
+RESULT: fail
+2019-03-31 6:51:45PM - ACTION: movie-this QUERY: movie-this Cat in the Hat
+RESULT: fail
+2019-03-31 6:52:14PM - ACTION: movie-this QUERY: movie-this Cat in the Hat
+RESULT: fail
+2019-03-31 6:53:16PM - ACTION: movie-this QUERY: movie-this Cat in the Hat
+RESULT: fail
+2019-03-31 6:53:36PM - ACTION: movie-this QUERY: Cat in the Hat
+RESULT: success
+2019-03-31 7:02:36PM - ACTION: movie-this QUERY: Shaun of the Dead
+RESULT: success
+2019-03-31 7:03:06PM - ACTION: movie-this QUERY: Shaun of the Dead
+RESULT: success
+2019-03-31 7:03:23PM - ACTION: concert-this QUERY: Metric
+RESULT: success
+2019-03-31 7:05:03PM - ACTION: concert-this QUERY: Metric
+RESULT: success
+2019-03-31 7:23:51PM - ACTION: concert-this QUERY: John Wick
+RESULT: fail
+2019-03-31 7:24:09PM - ACTION: movie-this QUERY: John Wick
+RESULT: success
+2019-03-31 7:26:32PM - ACTION: spotify-this-song QUERY: all you need is love
+RESULT: success
+2019-03-31 7:26:47PM - ACTION: spotify-this-song QUERY: Thriller
+RESULT: success
+2019-03-31 7:27:47PM - ACTION: spotify-this-song QUERY: Billie Jean
+RESULT: success
+2019-03-31 7:29:22PM - ACTION: spotify-this-song QUERY: Shout at the devil
+RESULT: success
