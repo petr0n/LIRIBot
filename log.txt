@@ -205,3 +205,38 @@ RESULT: fail
 RESULT: success
 2019-04-03 8:27:28AM - ACTION: spotify-this-song QUERY: XXRR
 RESULT: fail
+2019-04-03 1:08:12PM - ACTION: spotify-this-song QUERY: All you need is love
+RESULT: success
+2019-04-03 1:08:26PM - ACTION: spotify-this-song QUERY: xxrr
+RESULT: fail
+2019-04-03 1:11:18PM - ACTION: concert-this QUERY: Metric
+RESULT: success
+2019-04-03 1:12:00PM - ACTION: concert-this QUERY: Metric
+RESULT: success
+2019-04-03 1:12:11PM - ACTION: concert-this QUERY: Gorillaz
+RESULT: fail
+2019-04-03 1:14:28PM - ACTION: movie-this QUERY: Alita
+RESULT: success
+2019-04-03 1:14:47PM - ACTION: movie-this QUERY: xxrr
+RESULT: fail
+2019-04-03 1:15:11PM - ACTION: movie-this QUERY: Alita
+RESULT: success
+2019-04-03 1:15:20PM - ACTION: movie-this QUERY: xxrr
+RESULT: fail
+2019-04-03 1:18:12PM - ACTION: help QUERY: 
+2019-04-03 1:18:49PM - ACTION: do-what-is-says QUERY: 
+2019-04-03 1:19:29PM - ACTION: movie-this QUERY: The Matrix
+2019-04-03 1:19:29PM - ACTION: do-what-it-says QUERY: The,Matrix
+RESULT: success
+2019-04-03 1:19:40PM - ACTION: concert-this QUERY: Dido
+2019-04-03 1:19:40PM - ACTION: do-what-it-says QUERY: Dido
+RESULT: success
+2019-04-03 1:20:59PM - ACTION: spotify-this-song QUERY: Yellow Submarine
+2019-04-03 1:20:59PM - ACTION: do-what-it-says QUERY: Yellow,Submarine
+RESULT: success
+2019-04-03 1:21:04PM - ACTION: concert-this QUERY: Gorillaz
+2019-04-03 1:21:04PM - ACTION: do-what-it-says QUERY: Gorillaz
+RESULT: fail
+2019-04-03 1:21:10PM - ACTION: concert-this QUERY: Tool
+2019-04-03 1:21:10PM - ACTION: do-what-it-says QUERY: Tool
+RESULT: success

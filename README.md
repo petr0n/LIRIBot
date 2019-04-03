@@ -11,3 +11,11 @@ Or get something random
 node index do-what-it-says 
 
 Have fun!
+
+------------------------
+
+## Examples
+Running spotify-this-song
+
+Inline-style: 
+![alt text](https://github.com/petr0n/ "Spotify This Song")
