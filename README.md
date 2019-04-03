@@ -3,20 +3,25 @@ A music and movie Language Interpretation and Recognition Interface Bot. LIRIBot
 
 Use the pass parameters to get what you are looking for:
 
-* node index spotify-this-song <Song title goes here>
-* node index movie-this <Movie title goes here>
-* node index concert-this <Band name goes here>
+* `node index spotify-this-song <song title goes here>`
+* `node index movie-this <movie title goes here>`
+* `node index concert-this <band name goes here>`
 
 Or get something random
-* node index do-what-it-says 
+* `node index do-what-it-says` 
 
 EXTRA function 
-* node index help <-Outputs the available commands
+* `node index help` <-Outputs the available commands
+
+### Additional Notes 
+The function *do-what-it-says* reads the random.txt and pulls out a random line from it and runs it.
+
 
 ------------------------
 
 ## Dependencies
 * NodeJS
+* [dotenv](https://www.npmjs.com/package/dotenv)
 * [Node Spotify API](https://www.npmjs.com/package/node-spotify-api)
 * [MomentJS](http://momentjs.com)
 * [Chalk](https://www.npmjs.com/package/chalk) - Adds additional coloring options in CLI
