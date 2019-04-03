@@ -72,7 +72,7 @@ function spotifyThisSong(name) {
 				console.log(buildMessage('success', details));                
 				logger('RESULT: success');                
 			} else {
-				console.log(buildMessage('success', 'No matching tracks found'));
+				console.log(buildMessage('fail', 'No matching tracks found'));
 				logger('RESULT: fail');
 			}
 		});

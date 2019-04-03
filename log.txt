@@ -180,3 +180,28 @@ RESULT: success
 2019-04-01 6:31:22PM - ACTION: undefined QUERY: 
 2019-04-01 6:32:56PM - ACTION: concert-this QUERY: metric
 RESULT: success
+2019-04-02 8:22:15PM - ACTION: spotify-this-song QUERY: 
+RESULT: success
+2019-04-03 8:08:52AM - ACTION: undefined QUERY: 
+2019-04-03 8:12:07AM - ACTION: movie-this QUERY: Tool
+RESULT: success
+2019-04-03 8:12:25AM - ACTION: spotify-this-song QUERY: All You Need is Love
+RESULT: success
+2019-04-03 8:12:37AM - ACTION: concert-this QUERY: Metric
+RESULT: success
+2019-04-03 8:12:47AM - ACTION: concert-this QUERY: Gorillaz
+RESULT: fail
+2019-04-03 8:13:03AM - ACTION: movie-this QUERY: asdfasdfii
+RESULT: fail
+2019-04-03 8:13:11AM - ACTION: movie-this QUERY: E.T.
+RESULT: success
+2019-04-03 8:24:58AM - ACTION: spotify-this-song QUERY: All You Need is Love
+RESULT: success
+2019-04-03 8:25:20AM - ACTION: spotify-this-song QUERY: All You Need is Love
+RESULT: success
+2019-04-03 8:25:27AM - ACTION: spotify-this-song QUERY: xxxrrr
+RESULT: fail
+2019-04-03 8:27:16AM - ACTION: spotify-this-song QUERY: All You Need Is Love
+RESULT: success
+2019-04-03 8:27:28AM - ACTION: spotify-this-song QUERY: XXRR
+RESULT: fail
