@@ -13,6 +13,15 @@ Or get something random
 EXTRA function 
 * node index help <-Outputs the available commands
 
+------------------------
+
+## Dependencies
+* NodeJS
+* [Node Spotify API](https://www.npmjs.com/package/node-spotify-api)
+* [MomentJS](http://momentjs.com)
+* [Chalk](https://www.npmjs.com/package/chalk) - Adds additional coloring options in CLI
+
+
 Have fun!
 
 ------------------------
