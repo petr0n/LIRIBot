@@ -15,7 +15,26 @@ Have fun!
 ------------------------
 
 ## Examples
-Running spotify-this-song
 
-Inline-style: 
-![alt text](https://github.com/petr0n/ "Spotify This Song")
+### spotify-this-song
+
+![alt text](https://raw.githubusercontent.com/petr0n/LIRIBot/master/images/spotify-this-song-example.gif "Spotify This Song")
+
+### concert-this
+
+![alt text](https://raw.githubusercontent.com/petr0n/LIRIBot/master/images/concert-this-example.gif "Concert This")
+
+### movie-this
+
+![alt text](https://raw.githubusercontent.com/petr0n/LIRIBot/master/images/movie-this-example.gif "Movie This")
+
+
+### do-what-it-says
+
+![alt text](https://raw.githubusercontent.com/petr0n/LIRIBot/master/images/do-what-it-says-example.gif "Do What It Says")
+
+
+### BONUS
+### Help
+
+![alt text](https://raw.githubusercontent.com/petr0n/LIRIBot/master/images/help-example.gif "Help")
