@@ -1,6 +1,8 @@
 # LIRIBot
 A music and movie Language Interpretation and Recognition Interface Bot. LIRIBot is a simple but powerful bot. You can search for movies, songs or bands.
 
+Github: https://github.com/petr0n/LIRIBot
+
 Use the pass parameters to get what you are looking for:
 
 * `node index spotify-this-song <song title goes here>`
